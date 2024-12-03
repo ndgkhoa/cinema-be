@@ -1,7 +1,7 @@
 {
     "compilerOptions": {
-        "module": "NodeNext",
-        "moduleResolution": "NodeNext",
+        "module": "ESNext",
+        "moduleResolution": "Node",
         "target": "ES2023",
         "outDir": "dist",
         "esModuleInterop": true,
@@ -9,7 +9,7 @@
         "skipLibCheck": true,
         "baseUrl": ".",
         "paths": {
-            "~/*": ["src/*"]
+            "@/*": ["src/*"]
         }
     },
     "files": ["src/types/type.d.ts"],
